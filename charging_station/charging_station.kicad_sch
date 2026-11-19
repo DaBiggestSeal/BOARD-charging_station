@@ -1996,6 +1996,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2119,6 +2284,160 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SMF5V0A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMF5V0A"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMF"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/doc?85881"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode TVS voltage suppressor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SMF*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMF5V0A_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMF5V0A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2769,6 +3088,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -3073,6 +3556,18 @@
 		(uuid "25c168cf-849c-4656-8338-db24c694e2f6")
 	)
 	(junction
+		(at 81.28 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39530e2e-dad5-4830-a66f-dc55943d2fd1")
+	)
+	(junction
+		(at 71.12 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bde7be0-13c6-4191-a3ee-b8f5dcdf4441")
+	)
+	(junction
 		(at 130.81 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3089,6 +3584,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79dfdca5-036e-489a-8374-750d23ceb9a8")
+	)
+	(junction
+		(at 86.36 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7aa04a36-4593-4eb1-ab70-c2b1baa15c8e")
 	)
 	(junction
 		(at 130.81 44.45)
@@ -3113,6 +3614,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7af83ed-cb22-4783-8adf-0afaf34fe66c")
+	)
+	(junction
+		(at 111.76 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffc01ab4-2fe1-44cb-889b-ab84e1d0b5ea")
 	)
 	(wire
 		(pts
@@ -3186,6 +3693,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 72.39) (xy 88.9 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76359945-27f4-4346-9831-1a0f96541cc0")
+	)
+	(wire
+		(pts
 			(xy 60.96 87.63) (xy 130.81 87.63)
 		)
 		(stroke
@@ -3246,6 +3763,26 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 82.55) (xy 111.76 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4bc622-799f-4f85-a6ec-3c8a3459aea7")
+	)
+	(wire
+		(pts
+			(xy 68.58 72.39) (xy 71.12 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d525081d-6bf8-4aa9-8c44-56ddebe48155")
+	)
+	(wire
+		(pts
 			(xy 146.05 49.53) (xy 146.05 44.45)
 		)
 		(stroke
@@ -3253,6 +3790,16 @@
 			(type default)
 		)
 		(uuid "dd9426fb-b0e8-48f6-94a0-1e7af917a93f")
+	)
+	(wire
+		(pts
+			(xy 81.28 72.39) (xy 86.36 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4833b8e-af1b-49fb-9cae-63449509751d")
 	)
 	(wire
 		(pts
@@ -3273,6 +3820,64 @@
 			(type default)
 		)
 		(uuid "f622e289-44f0-4612-9272-33ca7d37e5ed")
+	)
+	(wire
+		(pts
+			(xy 71.12 72.39) (xy 81.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe9304d1-4175-459b-ace2-f69ec615e355")
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 111.76 74.93 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19cce5ec-8d77-4e50-a154-d4ea2ae0de7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 66.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 123.19 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54f47ff8-3974-4f3f-8adb-a1f40b9f6abe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.52 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(global_label "+3.3V"
 		(shape input)
@@ -3319,6 +3924,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 123.19 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3417f63-e56c-48ee-908d-063ab31e2f59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.52 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3472,6 +4101,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 106.68 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "06c28795-4ce7-43df-b424-3074012fca39")
+		(property "Reference" "SW1"
+			(at 106.68 84.074 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 106.68 85.852 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 106.68 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c39478b9-891a-4765-b9ac-d6f5d9b0f813")
+		)
+		(pin "2"
+			(uuid "b8834d89-48b4-429b-9ee6-13eb71546089")
+		)
+		(instances
+			(project "charging_station"
+				(path "/62c764e5-a5bb-40dc-bfd6-1672ccf2b9a0"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 64.77 77.47 90)
 		(unit 1)
@@ -3483,7 +4191,7 @@
 		(dnp no)
 		(uuid "09e94b60-a7dd-464d-8a94-9e76e1b31e0b")
 		(property "Reference" "R1"
-			(at 62.738 75.438 90)
+			(at 64.77 75.438 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3493,7 +4201,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 66.294 75.438 90)
+			(at 64.77 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3545,6 +4253,86 @@
 			(project "charging_station"
 				(path "/62c764e5-a5bb-40dc-bfd6-1672ccf2b9a0"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 64.77 72.39 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a4550e2-47a6-492a-8547-da205b81c6b2")
+		(property "Reference" "F1"
+			(at 64.77 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1812"
+			(at 64.77 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 64.77 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "044ea768-6ec2-4041-9f35-0f6e7d70a808")
+		)
+		(pin "1"
+			(uuid "2c8f8391-ec80-49a9-9a2c-0ff192067e8c")
+		)
+		(instances
+			(project "charging_station"
+				(path "/62c764e5-a5bb-40dc-bfd6-1672ccf2b9a0"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -3640,7 +4428,7 @@
 		(dnp no)
 		(uuid "11c7536b-f765-4735-97fd-5caaf21af85f")
 		(property "Reference" "R3"
-			(at 132.842 46.736 90)
+			(at 133.096 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3650,7 +4438,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 132.842 50.038 90)
+			(at 130.81 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3864,8 +4652,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Plug")
-		(at 355.6 71.12 180)
+		(lib_id "power:Earth")
+		(at 101.6 82.55 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3874,20 +4662,20 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "22389f72-b2a7-4e27-ac06-6fcf020d4e5d")
-		(property "Reference" "P1"
-			(at 367.03 66.0399 0)
+		(uuid "237b39f4-6699-4c1a-b281-618b089f4754")
+		(property "Reference" "#PWR016"
+			(at 95.25 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "USB_C_Plug"
-			(at 367.03 68.5799 0)
+		(property "Value" "Earth"
+			(at 98.425 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3898,7 +4686,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 351.79 71.12 0)
+			(at 101.6 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3908,8 +4696,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 351.79 71.12 0)
+		(property "Datasheet" ""
+			(at 101.6 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3919,8 +4707,8 @@
 				)
 			)
 		)
-		(property "Description" "USB Type-C Plug connector"
-			(at 355.6 71.12 0)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 101.6 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3930,79 +4718,13 @@
 				)
 			)
 		)
-		(pin "A5"
-			(uuid "f21660ec-b4af-48a0-9fa4-c09f74893405")
-		)
-		(pin "A8"
-			(uuid "fc5f4a86-2e64-426c-9fe9-b92625281e28")
-		)
-		(pin "A6"
-			(uuid "595014c7-9f12-4c22-af9e-2cb41070d32c")
-		)
-		(pin "A1"
-			(uuid "08dbb1b0-dba9-495f-92fc-8f1bbf7e29c0")
-		)
-		(pin "A9"
-			(uuid "0a069e22-ba7f-4081-ac99-e66c759bdcbe")
-		)
-		(pin "A2"
-			(uuid "05e15640-53e3-493d-9e18-a64c852655bd")
-		)
-		(pin "A7"
-			(uuid "6063c36f-0577-42af-ba8a-8a660658509a")
-		)
-		(pin "A3"
-			(uuid "eb6f8dd5-ae69-424f-aba9-86550213debb")
-		)
-		(pin "A4"
-			(uuid "68959650-9270-4ad6-b4db-c5a3254c9b52")
-		)
-		(pin "B3"
-			(uuid "31868967-9cba-4669-bd29-3b64109c732d")
-		)
-		(pin "A11"
-			(uuid "4f7be63e-6855-4a8f-b871-e185c71fffc2")
-		)
-		(pin "B9"
-			(uuid "d2980f01-679e-467d-ad61-dd31e8bc27f4")
-		)
-		(pin "B8"
-			(uuid "45ad056a-4352-4712-9aa1-d7303980ab99")
-		)
-		(pin "B2"
-			(uuid "da54b86d-25a0-4e01-a2c3-f2f137120eaf")
-		)
-		(pin "B10"
-			(uuid "943e602a-c8cf-4978-9338-b19b8e0c8345")
-		)
-		(pin "B1"
-			(uuid "83b0a773-b7e3-407f-9121-59aacb431f5e")
-		)
-		(pin "B4"
-			(uuid "e2d98619-e30e-442e-869f-1bcb9c87008f")
-		)
-		(pin "B5"
-			(uuid "11c5e7d8-87f6-4358-89a5-05d733a661a8")
-		)
-		(pin "B12"
-			(uuid "774956b7-6c01-4cfd-ad01-bb7826eb18d7")
-		)
-		(pin "A12"
-			(uuid "96ec5c4d-d146-4805-8568-e79e292a3430")
-		)
-		(pin "A10"
-			(uuid "ef33dcb6-295b-4ac7-968e-cf3d5a9ee892")
-		)
-		(pin "SH"
-			(uuid "034fff6b-8f04-49ec-b7f4-716e52872c38")
-		)
-		(pin "B11"
-			(uuid "3ae71626-f598-4107-935d-a38b58656e15")
+		(pin "1"
+			(uuid "7f4558b4-9a67-4450-b753-8c6225ead172")
 		)
 		(instances
 			(project "charging_station"
 				(path "/62c764e5-a5bb-40dc-bfd6-1672ccf2b9a0"
-					(reference "P1")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4181,84 +4903,6 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 363.22 30.48 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3976fbd0-0c56-4f70-8e11-cdc48980e059")
-		(property "Reference" "#PWR02"
-			(at 363.22 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Earth"
-			(at 363.22 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 363.22 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 363.22 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 363.22 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9252bac3-7eab-4659-85bf-cfee8719f8c2")
-		)
-		(instances
-			(project "charging_station"
-				(path "/62c764e5-a5bb-40dc-bfd6-1672ccf2b9a0"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
 		(at 146.05 95.25 0)
 		(unit 1)
 		(body_style 1)
@@ -4337,6 +4981,84 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
+		(at 71.12 64.77 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f9e7859-21f4-4b27-bc13-30edcc128b70")
+		(property "Reference" "#PWR018"
+			(at 71.12 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 71.12 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 71.12 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8eaf6338-3b4b-4ac4-ab90-9cfa904f1428")
+		)
+		(instances
+			(project "charging_station"
+				(path "/62c764e5-a5bb-40dc-bfd6-1672ccf2b9a0"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
 		(at 59.69 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -4408,6 +5130,84 @@
 			(project "charging_station"
 				(path "/62c764e5-a5bb-40dc-bfd6-1672ccf2b9a0"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 86.36 64.77 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60d708d8-019f-4a35-b424-4325ed466c4e")
+		(property "Reference" "#PWR020"
+			(at 86.36 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 86.36 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 86.36 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af08adac-3c24-40d6-9acc-24542bf69268")
+		)
+		(instances
+			(project "charging_station"
+				(path "/62c764e5-a5bb-40dc-bfd6-1672ccf2b9a0"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -4497,6 +5297,85 @@
 			(project "charging_station"
 				(path "/62c764e5-a5bb-40dc-bfd6-1672ccf2b9a0"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 111.76 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "66253535-d53a-4b2e-b1ca-9e6ec378f3d6")
+		(property "Reference" "R6"
+			(at 113.792 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 111.76 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.982 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c1d02596-7ef8-431e-8819-463b86f92481")
+		)
+		(pin "1"
+			(uuid "1ede03ab-ff5e-4192-8141-d5c7a2fd05d4")
+		)
+		(instances
+			(project "charging_station"
+				(path "/62c764e5-a5bb-40dc-bfd6-1672ccf2b9a0"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4884,6 +5763,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 88.9 72.39 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a44b60e-cc24-4372-8e5b-a435cbf97608")
+		(property "Reference" "#PWR017"
+			(at 85.09 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 91.694 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 88.9 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ab71eb3-c0b5-4d43-8f60-a2e6d992b279")
+		)
+		(instances
+			(project "charging_station"
+				(path "/62c764e5-a5bb-40dc-bfd6-1672ccf2b9a0"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 121.92 39.37 270)
 		(unit 1)
@@ -5042,6 +5999,242 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 86.36 68.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a9654f8b-b532-48ce-b825-59144d63cd4c")
+		(property "Reference" "C8"
+			(at 89.154 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 89.408 66.548 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.3948 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 86.36 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b1795ce5-7568-41e5-ae08-5f2e0681d3f4")
+		)
+		(pin "1"
+			(uuid "14d99d2d-9ca3-462b-9f80-e19069350f45")
+		)
+		(instances
+			(project "charging_station"
+				(path "/62c764e5-a5bb-40dc-bfd6-1672ccf2b9a0"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 81.28 64.77 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b10fb062-885f-4f54-a56c-df033a2671b2")
+		(property "Reference" "#PWR019"
+			(at 81.28 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 81.28 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 81.28 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9694fd38-2d9a-45bf-9454-9ceae3e88653")
+		)
+		(instances
+			(project "charging_station"
+				(path "/62c764e5-a5bb-40dc-bfd6-1672ccf2b9a0"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 64.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8d97fda-2397-4471-9bf4-ec662ac51f8b")
+		(property "Reference" "R5"
+			(at 127 62.738 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 127 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 66.548 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d62b442f-beb9-4ad1-996d-9ace00c23a0f")
+		)
+		(pin "1"
+			(uuid "14712f4d-caad-466d-b4e3-163a05c3ec92")
+		)
+		(instances
+			(project "charging_station"
+				(path "/62c764e5-a5bb-40dc-bfd6-1672ccf2b9a0"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 68.58 77.47 90)
 		(unit 1)
@@ -5121,6 +6314,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 81.28 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c277e417-a9ed-4f6c-854e-7b73d6d503ac")
+		(property "Reference" "C7"
+			(at 83.566 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 83.566 66.548 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.2452 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 81.28 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64a82f61-f243-43b1-a189-a44b45ef226f")
+		)
+		(pin "2"
+			(uuid "c4f1c5f6-77c8-4739-930e-6c11e6c62d66")
+		)
+		(instances
+			(project "charging_station"
+				(path "/62c764e5-a5bb-40dc-bfd6-1672ccf2b9a0"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 363.22 107.95 180)
 		(unit 1)
@@ -5145,6 +6417,7 @@
 		)
 		(property "Value" "Earth"
 			(at 363.22 102.87 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5332,6 +6605,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 127 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c3aced77-c4be-4519-a637-27a478520c5b")
+		(property "Reference" "R4"
+			(at 127 77.978 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 127 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 81.788 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "45eaf838-5651-4fe7-ac3d-88151b7e8952")
+		)
+		(pin "1"
+			(uuid "c2ad6b69-c444-4ca6-9ac3-762b50e70838")
+		)
+		(instances
+			(project "charging_station"
+				(path "/62c764e5-a5bb-40dc-bfd6-1672ccf2b9a0"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 127 39.37 90)
 		(unit 1)
@@ -5411,84 +6763,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 355.6 30.48 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d844a283-8694-4fa6-a43f-e26e7a23efb3")
-		(property "Reference" "#PWR01"
-			(at 355.6 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Earth"
-			(at 355.6 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 355.6 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355.6 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 355.6 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "086d1470-639a-4dc0-8762-ea621a866397")
-		)
-		(instances
-			(project "charging_station"
-				(path "/62c764e5-a5bb-40dc-bfd6-1672ccf2b9a0"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 64.77 80.01 90)
 		(unit 1)
@@ -5500,7 +6774,7 @@
 		(dnp no)
 		(uuid "e15b40c9-f1d6-4129-a1e7-92cc2338a0b2")
 		(property "Reference" "R2"
-			(at 62.738 82.042 90)
+			(at 64.77 82.042 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5510,7 +6784,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 66.548 82.042 90)
+			(at 64.77 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5661,6 +6935,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMF5V0A")
+		(at 71.12 68.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f3e4a336-a603-467f-8812-8a0b1786816f")
+		(property "Reference" "D1"
+			(at 74.168 66.294 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMF5V0A"
+			(at 80.01 64.516 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMF"
+			(at 76.2 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?85881"
+			(at 71.12 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
+			(at 71.12 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dc8470e8-4283-41ea-87e6-7b9945ebd0e9")
+		)
+		(pin "1"
+			(uuid "37400c02-fb47-42f7-8367-e506a890ecfd")
+		)
+		(instances
+			(project "charging_station"
+				(path "/62c764e5-a5bb-40dc-bfd6-1672ccf2b9a0"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 355.6 107.95 180)
 		(unit 1)
@@ -5685,6 +7040,7 @@
 		)
 		(property "Value" "Earth"
 			(at 355.6 102.87 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5814,6 +7170,52 @@
 				(path "/62c764e5-a5bb-40dc-bfd6-1672ccf2b9a0"
 					(reference "C5")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 265.43 40.64)
+		(size 21.59 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5775f46c-eec2-4128-b981-2a8b1b359215")
+		(property "Sheetname" "output"
+			(at 265.43 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "output.kicad_sch"
+			(at 265.43 59.0046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "charging_station"
+				(path "/62c764e5-a5bb-40dc-bfd6-1672ccf2b9a0"
+					(page "2")
 				)
 			)
 		)
