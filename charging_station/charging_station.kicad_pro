@@ -665,7 +665,7 @@
         "uuid": "62c764e5-a5bb-40dc-bfd6-1672ccf2b9a0"
       }
     ],
-    "used_designators": "#PWR1-22,C1-8,D1,F1,J1,P1-3,R1-6,SW1,U1-2,U4",
+    "used_designators": "#FLG1-3,#PWR1-30,C1-11,D1,F1,J1,P1-4,R1-14,SW1,U1-4",
     "variants": []
   },
   "sheets": [
@@ -675,7 +675,11 @@
     ],
     [
       "5775f46c-eec2-4128-b981-2a8b1b359215",
-      "output"
+      "output-headphones"
+    ],
+    [
+      "d7b00ecf-c495-45a1-bb83-7c8d64696e5d",
+      "output-wireless"
     ]
   ],
   "text_variables": {},
