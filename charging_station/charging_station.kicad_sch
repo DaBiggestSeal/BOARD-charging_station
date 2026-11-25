@@ -4911,10 +4911,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "01918079-b499-4843-87f0-8675d1ab79cc")
 		(property "Reference" "J1"
-			(at 45.72 54.61 0)
+			(at 45.72 65.278 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4924,7 +4923,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 45.72 57.15 0)
+			(at 45.72 67.818 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
