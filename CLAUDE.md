@@ -34,7 +34,7 @@ PD sink/source chips, boost converters, buck converter, MOSFET level shifters, B
 
 ## Output ports (schematic done) — hierarchical sheet `output.kicad_sch` used ×2 (`output-wireless`, `output-headphones`)
 - Board-mounted USB-C **plugs** (intentional — devices plug straight onto the board): P1 headphones (JingTuoJin vertical plug), P2 pad (Molex 105444). Plug has one CC (A5); B5 = VCONN, left open.
-- TPS2553 load switch (U4 pad, U3 headphones): IN 0.1 µF (C10/C8), OUT 120 µF electrolytic (C11/C9, CP_Elec_6.3x7.7), EN pull-down 20 kΩ (R14/R12), FAULT pull-up 100 kΩ to 3V3 (R13/R11).
+- TPS2553 load switch (U4 pad, U3 headphones): IN 0.1 µF (C10/C8), OUT 150 µF polymer tantalum (C11/C9, KEMET T520D157M010ATE015, 10 V, D case 2.8 mm, `CP_EIA-7343-31_Kemet-D`; sized for USB hot-plug ~140 µF so ports may stay on), EN pull-down 20 kΩ (R14/R12), FAULT pull-up 100 kΩ to 3V3 (R13/R11).
   - EN is **active high**. TODO: check IO5/IO1 reset-state pulls in ESP32-C3 datasheet (internal pull-up would fight the 20 kΩ).
   - Datasheet SLVS841G: limit 75 mA–1.7 A typ, **max continuous 1.5 A** (Tj ≤105 °C). R_ILIM 15–232 kΩ.
   - Symbol: project lib `charging_station:TPS2553DBV` (`charging_station.kicad_sym` + `sym-lib-table`), pinout 1 IN, 2 GND, 3 EN, 4 FAULT, 5 ILIM, 6 OUT. Footprint SOT-23-6.
